@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: #f1d145;
+}
+
+#nav {
+    display: grid;
+    margin: 0px;
+    border-style: solid;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+#section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.nav-div-izq {
+    display: flex;
+    background-color: #f1d145;
+    align-items: center;
+    justify-content: flex-start;
+    height: 200px;
+    padding: 80px;
+    gap: 20px;
+    font-family: "Courgette";
+    font-size: large;
+    text-align: center;
+}
+
+.nav-div-centro {
+    background-color: #f1d145;
+    background-image: url(/JavaScript/12_Clase_12/Ejercicio-1/Img/logo/logo-png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 200px;
+}
+
+.nav-div-der {
+    display: flex;
+    background-color: #f1d145;
+    align-items: center;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    height: 200px;
+    padding: 80px;
+    gap: 20px;
+    font-family: "Courgette";
+    font-size: large;
+}
+
+footer {
+    margin: 0px;
+    background-color: black;
+    color: #f1d145;
+    height: 200px;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.div-fondo-rest-1 {
+    color: #f1d145;
+    background-color: black;
+    height: 500px;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+#div-fondo-rest-2 {
+    background-image: url(/JavaScript/12_Clase_12/Ejercicio-1/Img/fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+#div-fondo-rest-3 {
+    background-image: url(/JavaScript/12_Clase_12/Ejercicio-1/Img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.div-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-footer-cont {
+    margin: 10px;
+    padding: 10px;
+}
